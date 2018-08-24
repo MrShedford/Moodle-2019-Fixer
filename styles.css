@@ -1,19 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
+
 body {
-  background: url("https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif") !important;
+  background-color: #e8e8e8 !important;
+  font-family: "Karla", sans-serif !important; /*This is a nice google font to use, it's similiar to the default but just a slick cleaner */
 }
 
-#masthead,
-#primary {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-  background-color: #fff;
+.block,
+.btn-secondary,
+.media-body,
+.user-nav {
+  border-radius: 25px !important;
   padding: 20px !important;
 }
-#masthead {
-  background: none;
+
+/*customise button rounded*/
+.btn-secondary {
+  /* background-color: #00697a !important; */
+  border-radius: 25px !important;
+  padding: 10px !important;
 }
-#masthead img,
-#primary img {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+
+.media-body {
+  text-decoration: underline !important;
+}
+
+.alert alert-info {
 }

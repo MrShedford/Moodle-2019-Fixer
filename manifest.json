@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
 
-  "name": "Modify CSS and HTML",
+  "name": "Moodle 2019 Fixer",
   "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
+  "description": "Changes Moodle Styling To Be Nicer",
 
   "content_scripts": [
     {
       "css": ["styles.css"],
       "js": ["content.js"],
-      "matches": ["hhttps://2019.moodle.maynoothuniversity.ie/my/*"]
+      "matches": ["https://2019.moodle.maynoothuniversity.ie/*"]
     }
   ]
 }
